@@ -1,0 +1,85 @@
+body, table, ul, ol, dt, dd, dl, p, h1, h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+  background: url(90.gif);
+}
+#wrapper {
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+.double {
+  width: 420px;
+}
+.box a {
+  display: block;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.box a:hover {
+  opacity: 1;
+}
+.box .title {
+  position: absolute;
+  top: 10px;left: 10px;right: 10px;
+  padding: 0 .25em;
+  text-decoration: none;
+  background: black;
+  color: #eee;
+  display: none;
+}
+.box a:hover .title {
+  display: inline;
+}
+.box .shop {
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  background: black;
+  opacity: 0.5;
+  color: white;
+  font-family: helvetica;
+  padding: .2em;
+}
+
+.row_title h2 {
+  margin: 20px;
+  font-size: 16px;
+  color: #253B53;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
