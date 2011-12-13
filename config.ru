@@ -9,12 +9,17 @@ class Site < Sinatra::Base
   set :root, File.dirname(__FILE__)
   
   get '/?' do
+    cache_long
     erb :index
   end
   
   SECRET = File.read('secret.txt').chomp
   
   helpers do
+    
+    def cache_long(seconds = 3600)
+      response['Cache-Control'] = "public, max-age=#{seconds.to_i}"
+    end
     
     def rotate
       %(style="-webkit-transform:rotate(#{ rand * 1 - rand * 1}deg);")
