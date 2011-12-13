@@ -3,7 +3,7 @@ body, table, ul, ol, dt, dd, dl, p, h1, h2,h3,h4,h5,h6 {
   margin: 0;
 }
 body {
-  font-family: 'Signika', sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background: url(90.gif);
 }
@@ -13,38 +13,59 @@ body {
   width: 90%;
 }
 .box {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+  width: 210px;
+  height: 210px;
+  margin: 5px 5px 15px 5px;
   float: left;
   background: white;
-  overflow: hidden;
   position: relative;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .double {
-  width: 420px;
+  width: 430px;
 }
 .box a {
   display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.9;
+  margin: 5px;
 }
 .box a:hover {
   opacity: 1;
 }
 .box .title {
+  font: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
   position: absolute;
-  top: 10px;left: 10px;right: 10px;
+  bottom: 10px;left: 10px;right: 10px;
   padding: 0 .25em;
   text-decoration: none;
-  background: black;
-  color: #eee;
+  background: white;
+  color: #333;
   display: none;
 }
 .box a:hover .title {
   display: inline;
 }
 .box .shop {
+  font: italic 100% Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+  color: #333;
+  text-align: center;
+  line-height: 3;
+  display: block;
+  position: absolute;
+  z-index:3;
+  top: -18px;left: 40px;
+  background: url(tape2.png) left top no-repeat;
+  width: 115px;height: 32px;
+}
+/*.box .shop {
   position: absolute;
   z-index: 2;
   bottom: 10px;
@@ -55,7 +76,9 @@ body {
   color: white;
   font-family: helvetica;
   padding: .2em;
-}
+  display: inline;
+  width: auto;height: auto;
+}*/
 
 .row_title h2 {
   margin: 20px;

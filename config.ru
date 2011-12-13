@@ -16,6 +16,10 @@ class Site < Sinatra::Base
   
   helpers do
     
+    def rotate
+      %(style="-webkit-transform:rotate(#{ rand * 1 - rand * 1}deg);")
+    end
+    
     def image(shop_id, file_name, size = '200x200#')
       
       image_path = Serializer.encode(
