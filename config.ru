@@ -13,7 +13,7 @@ class Site < Sinatra::Base
     erb :index
   end
   
-  SECRET = File.read('secret.txt').chomp
+  SECRET = (ENV['BOOTIC_RESIZE_SECRET'] || File.read('secret.txt').chomp)
   
   helpers do
     
