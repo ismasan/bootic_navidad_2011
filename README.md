@@ -2,8 +2,10 @@
 
     bundle install
     
-    touch secret.txt
-    
 Poner secreto de servidor de imágenes en secret.txt
+
+    echo "misecreto" > secret.txt
+    
+Iniciar servidor
 
     bundle exec rackup config.ru
