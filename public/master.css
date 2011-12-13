@@ -2,6 +2,9 @@ body, table, ul, ol, dt, dd, dl, p, h1, h2,h3,h4,h5,h6 {
   padding: 0;
   margin: 0;
 }
+p {
+  margin-bottom: 1.2em;
+}
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
@@ -12,6 +15,40 @@ body {
   margin: 0 auto;
   width: 90%;
 }
+
+/* Header
+----------------------------------*/
+#logo {
+  float: left;
+}
+#header {
+  padding: 10px 0 10px 0;
+  background: url(body-pattern.png);
+  margin-bottom: 20px; 
+  -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, 1); -moz-box-shadow: 2px 0 4px rgba(0, 0, 0, 1);
+}
+#nav {
+  float: right;
+  list-style-type: none;
+  margin: 40px 0 0 0;
+}
+#nav li {
+  float: left;
+  margin: 0 1em;
+}
+#nav a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  font-size: 16px;
+}
+.frame {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+/* box
+-------------------------*/
 .box {
   width: 210px;
   height: 210px;
@@ -65,22 +102,11 @@ body {
   background: url(tape2.png) left top no-repeat;
   width: 115px;height: 32px;
 }
-/*.box .shop {
-  position: absolute;
-  z-index: 2;
-  bottom: 10px;
-  right: 10px;
-  font-size: 10px;
-  background: black;
-  opacity: 0.5;
-  color: white;
-  font-family: helvetica;
-  padding: .2em;
-  display: inline;
-  width: auto;height: auto;
-}*/
-
-.row_title h2 {
+.row_title {
+  background: white url(35.jpg) 23px 96px no-repeat;
+}
+.row_title h2,
+.row_title .margins {
   margin: 20px;
   font-size: 16px;
   color: #253B53;
