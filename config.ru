@@ -22,7 +22,7 @@ class Site < Sinatra::Base
     end
     
     def rotate
-      %(style="-webkit-transform:rotate(#{ rand * 1 - rand * 1}deg);")
+      %(style="-webkit-transform:rotate(#{ rand * 2.5 - rand * 2.5}deg);")
     end
     
     def image(shop_id, file_name, size = '200x200#')
