@@ -8,13 +8,18 @@ p {
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  background: url(90.gif);
+  background: url(xmas.jpg);
 }
 #wrapper {
   text-align: left;
   margin: 0 auto;
   width: 90%;
 }
+
+/* helpers
+----------------------------------*/
+
+.hidden { display: none }
 
 /* Header
 ----------------------------------*/
@@ -23,11 +28,14 @@ body {
 }
 #header {
   padding: 10px 0 10px 0;
-  background: url(body-pattern.png);
-  margin-bottom: 20px; 
-  -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, 1); -moz-box-shadow: 2px 0 4px rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+/*  background: url(body-pattern.png);
+  -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 0 4px rgba(0, 0, 0, 1);
+*/
 }
 #nav {
+	display: none;
   float: right;
   list-style-type: none;
   margin: 40px 0 0 0;
@@ -60,6 +68,20 @@ body {
   -moz-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.box:hover{
+	z-index: 10;
+	-moz-transform: rotate(3deg) scale(1.2) !important;
+	-webkit-transform: rotate(3deg) scale(1.2) !important;
+	-khtml-transform: rotate(3deg) scale(1.2) !important;
+	-o-transform: rotate(3deg) scale(1.2) !important;
+	transform: rotate(3deg) scale(1.2) !important;
+}
+
+.box:hover img{
+/*	border: 3px solid #a00;*/
+}
+
 .double {
   width: 430px;
 }
@@ -120,15 +142,26 @@ body {
 	line-height: 0;
 	height: 0;
 }
- 
+
 .clearfix {
 	display: inline-block;
 }
- 
+
 html[xmlns] .clearfix {
 	display: block;
 }
- 
+
 * html .clearfix {
 	height: 1%;
+}
+
+#footer{
+	font-size: 1.3em;
+	color: #ddd;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#footer a{
+	color: #fff;
 }

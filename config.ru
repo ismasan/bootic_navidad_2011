@@ -7,29 +7,29 @@ require File.dirname(__FILE__) + '/serializer'
 class Site < Sinatra::Base
   set :public_folder, File.dirname(__FILE__) + '/public'
   set :root, File.dirname(__FILE__)
-  
+
   get '/?' do
     cache_long
     erb :index
   end
-  
+
   SECRET = (ENV['BOOTIC_RESIZE_SECRET'] || File.read('secret.txt').chomp)
-  
+
   helpers do
-    
+
     def cache_long(seconds = 3600)
       response['Cache-Control'] = "public, max-age=#{seconds.to_i}"
     end
-    
+
     def rotate
-      %(style="-webkit-transform:rotate(#{ rand * 2.5 - rand * 2.5}deg);")
+      %(style="-webkit-transform:rotate(#{(rand*10).to_i-5}deg);")
     end
-    
+
     def image(shop_id, file_name, size = '200x200#')
-      
+
       image_path = Serializer.encode(
-        :shop_id => shop_id, 
-        :g => size, 
+        :shop_id => shop_id,
+        :g => size,
         :f => file_name
       )
 
@@ -37,11 +37,11 @@ class Site < Sinatra::Base
       digest = Serializer.asset_key(image_path, SECRET)
       url << "?k=#{digest}"
       url
-      
+
     end
-    
+
   end
-  
+
 end
 
 run Site
