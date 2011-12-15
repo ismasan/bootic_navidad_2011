@@ -147,10 +147,10 @@ h1{
 }
 .box .shop {
   font: italic 100% Georgia, "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 12px;
   color: #333;
   text-align: center;
-  line-height: 3;
+  line-height: 2.5;
   display: block;
   position: absolute;
   z-index:3;
