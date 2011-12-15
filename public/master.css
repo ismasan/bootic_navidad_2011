@@ -16,6 +16,35 @@ body {
   width: 90%;
 }
 
+#star{
+	position: absolute;
+	top: -200px;
+	right: 0;
+	width: 600px;
+	height: 639px;
+	background: url(star-bg.png);
+}
+
+h1{
+	position: absolute;
+	right: 180px;
+	top: 50px;
+}
+
+#welcome{
+	color: white;
+	text-align: left;
+	width: 90%;
+	margin: 50px auto;
+}
+
+#welcome p{
+	font-size: 1.5em;
+	width: 800px;
+	font-family: "Helvetica Neue", Calibri, sans-serif;
+	letter-spacing: -0.03em;
+}
+
 /* helpers
 ----------------------------------*/
 
@@ -101,13 +130,18 @@ body {
   font: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   position: absolute;
-  bottom: 10px;left: 10px;right: 10px;
+  bottom: 7px;
+  left: 10px;
+  right: 10px;
   padding: 0 .25em;
   text-decoration: none;
-  background: white;
-  color: #333;
   display: none;
+  background: #a00;
+  color: #fff;
+  letter-spacing: -0.05em;
+  font-weight: bold;
 }
+
 .box a:hover .title {
   display: inline;
 }

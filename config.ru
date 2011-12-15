@@ -10,6 +10,7 @@ class Site < Sinatra::Base
 
   get '/?' do
     cache_long
+    @products = YAML.load_file('products.yml')
     erb :index
   end
 

@@ -1,0 +1,305 @@
+shops:
+  pilpil:
+    id: 19
+    name: Pil Pil
+    url: pilpil.cl
+  bodoquitos:
+    id: 93
+    name: Bodoquitos
+    url: bodoquitos.cl
+  zonaregalos:
+    id: 109
+    name: ZonaRegalos
+    url: zonaregalos.cl
+  amenkids:
+    id: 128
+    name: Amen Kids
+    url: amenkids.cl
+  kaikai:
+    id: 113
+    name: Kai Kai
+    url: kaikai.cl
+  openbaby:
+    id: 134
+    name: Open Baby
+    url: openbaby.cl
+  queregalo:
+    id: 47
+    name: Qué Regalo
+    url: queregalo.cl
+  pepino:
+    id: 155
+    name: Pepino
+    url: pepino.cl
+  secretosdeamor:
+    id: 136
+    name: Secretos de Amor
+    url: secretosdeamor.cl
+  japijane:
+    id: 78
+    name: JapiJane
+    url: japijane.cl
+  lomo:
+    id: 25
+    name: LomoChile
+    url: tienda.lomochile.cl
+  molde:
+    id: 40
+    name: Molde Diseño
+    url: tienda.molde.cl
+  dalealbo:
+    id: 34
+    name: Dale Albo
+    url: tienda.dalealbo.cl
+  santodiseno:
+    id: 159
+    name: Santo Diseño
+    url: santodiseno.cl
+  thestrip:
+    id: 112
+    name: The Strip
+    url: thestrip.cl
+  romano:
+    id: 29
+    name: Romano
+    url: romano.cl
+  logona:
+    id: 33
+    name: Logona
+    url: logona.cl
+  bbz:
+    id: 76
+    name: Barbizon
+    url: bbz.cl
+  majen:
+    id: 166
+    name: Majen
+    url: majen.cl
+  depto51:
+    id: 167
+    name: Depto 51
+    url: tiendadepto51.cl
+  porlaputa:
+    id: 123
+    name: Por la Puta
+    url: tienda.porlaputa.cl
+  papupet:
+    id: 211
+    name: Papupet
+    url: papupet.cl
+
+products:
+
+  - link: http://www.pilpil.cl/collections/primavera-verano
+    img: 27483-caja4bajab.jpg
+    shop: pilpil
+    title: Colecci&oacute;n Primavera Verano 2011-12
+
+  - link: http://www.bodoquitos.cl/products/porta-bebes-marsupial-o-fular
+    img: 16482-Red_300x400.JPG
+    title: Porta Bebes Marsupial o fular
+    shop: bodoquitos
+
+  - link: http://www.zonaregalos.cl/tags/angry-birds
+    img: 25607-Red_Bird.jpg
+    shop: zonaregalos
+    title: Peluches Angry Birds
+
+  - link: http://www.amenkids.cl/products/set-cubreplumon-camita-mono
+    img: 20724-Camita-monobaja.jpg
+    shop: amenkids
+    title: Set Cubreplum&oacute;n Camita Mono
+
+  - link: http://www.kaikai.cl/products/dvd-tikitiklip-artesanal
+    img: 25013-DVD_artesanal_frente.png
+    shop: kaikai
+    title: DVD Tikitiklip
+
+  - link: http://www.openbaby.cl/products/mini-cuna-baby-clic
+    img: 23747-violeta.jpg
+    shop: openbaby
+    title: Mini cuna Baby Clic
+
+  - link: http://www.zonaregalos.cl/products/juego-balls-balls
+    img: 23051-Juego_“Balls_Balls”_1.jpg
+    shop: zonaregalos
+    title: Juego Balls &amp; Balls
+
+  - link: http://www.queregalo.cl/products/selk-bag-ninos-2
+    img: 27297-QueRegSaco.jpg
+    shop: queregalo
+    title: Selk Bag Ni&ntilde;os
+
+  - link: http://pepino.bootic.net/collections/zapatos
+    img: 20078-pi_gitarre_large.jpg
+    shop: pepino
+    title: Colecci&oacute;n zapatos
+
+  - link: http://www.amenkids.cl/products/saco-de-dormir-perro-salchicha-rosado
+    img: 19128-16900-sacodormisalchichabajavert_copy.jpg
+    title: Saco de dormir perro salchicha
+    shop: amenkids
+
+  - link: http://www.zonaregalos.cl/products/juego-frogy-game
+    img: 23047-Juego_“Frogy_Game”_1.jpg
+    title: Juego Frogy Game
+    shop: zonaregalos
+
+  - link: http://www.openbaby.cl/products/sacos-artic
+    img: 19784-artic_gris.jpg
+    title: Sacos para coches Artic
+    shop: openbaby
+
+  - link: www.secretosdeamor.cl/products/juego-del-deseo
+    img: 21666-juegodeldeseo.jpg
+    title: Juego del deseo
+    shop: secretosdeamor
+
+  - link: www.japijane.cl/collections/menos-de-10-000
+    img: 16081-ETN-tarjetas-3.jpg
+    title: Naipes 52 posiciones sexuales - Productos menos de $10.000
+    shop: japijane
+
+  - link: tienda.lomochile.cl/collections/catalogo
+    img: 19894-la-sardina_sea-pride_front_1.jpg
+    title: C&aacute;maras de fotos Lomo
+    shop: lomo
+
+  - link: molde.bootic.net/products/vw-beetle-67
+    img: 20443-esacrojo.png
+    title: Volkswagen Beetle a&ntilde;o 67
+    shop: molde
+
+  - link: tienda.dalealbo.cl/products/camiseta-local-2011-adulto-personalizada
+    img: 16946-personalizada11.jpg
+    title: Camiseta Colo-Colo Local 2011 - Adulto Personalizada
+    shop: dalealbo
+
+  - link: molde.bootic.net/collections/catalogo/tags/mighty-wallet
+    img: 23774-airmail_01.jpg
+    title: Billeteras
+    shop: molde
+
+  - link: www.santodiseno.com/products/auto-armable-solar
+    img: 22960-auto_solar_full1.jpg
+    height: 376
+    title: Auto armable solar
+    shop: santodiseno
+
+  - link: molde.bootic.net/products/casco-tokyo-blue-stripe
+    img: 15090-yakkay4.jpg
+    title: Casco Tokio New Jazz
+    shop: molde
+
+  - link: www.zonaregalos.cl/products/carcasa-iphone4-red-bird-de-angry-birds
+    img: 23385-RedBird.jpg
+    height: 180
+    width: 180
+    title: Carcasa IPhone 4 - Angry Birds
+    shop: zonaregalos
+
+  - link: http://www.thestrip.cl/collections/sale
+    img: 20375-DORADO-PIEDRA-VERDE.jpg
+    title: Accesorios - Anillos
+    shop: thestrip
+
+  - link: www.romano.cl/collections/avance-verano-2012
+    url: 25476-12014PA.JPG
+    height: 376
+    width: 376
+    title: Colecci&oacute;n Primavera Verano 2011-12
+    shop: romano
+
+  - link: www.logona.cl/collections/catalogo/types/crema-de-cara-dia
+    img: 27018-cremad_a-hamamelis-r_día.jpg
+    title: Productos cremas de cara - d&iacute;a
+    shop: logona
+
+  - link: www.bbz.cl/collections/verano-2012
+    img: 23322-MINI_MARTINA_E.BL.jpg
+    title: Colecci&oacute;n Primavera Verano 2011-12
+    shop: bbz
+
+  - link: www.majen.cl/collections/albahaca-lemongrass
+    img: 21610-barra_lemongrass.jpg
+    title: Jab&oacute;n Barra Albahaca &amp; Lemongrass
+    shop: majen
+
+  - link: http://www.tiendadepto51.cl/types/cojines
+    img: 25179-22609-home_square_drop_black.jpg
+    title: Cojines
+    shop: depto51
+
+  - link: www.queregalo.cl/products/exprimidor
+    img: 25386-13.jpg
+    width: 376
+    height: 376
+    title: Exprimidor
+    shop: queregalo
+
+  - link: www.santodiseno.com/products/abre-tapas
+    img: 21379-abre_botella_diablito2.jpg
+    width: 376
+    title: Abre botellas diablito
+    shop: santodiseno
+
+  - link: www.tiendadepto51.cl/products/candelabro-meccano
+    img: 22881-MECANO1.jpg
+    title: Candelabro Mecano
+    shop: depto51
+
+  - link: www.queregalo.cl/products/tshirt
+    img: 25674-85.jpg
+    height: 376
+    title: Infusor de t&eacute; TShirt
+    shop: queregalo
+
+  - link: www.tiendadepto51.cl/products/set-de-dos-botellas-para-aceite-y-vinagre
+    img: 22866-alcuza.jpg
+    title: Set de dos botellas para aceite y vinagre
+    shop: depto51
+
+  - link: www.queregalo.cl/products/screw
+    img: 25673-84.jpg
+    title: Screw - percheros para pared
+    shop: queregalo
+
+  - link: www.queregalo.cl/products/can
+    img: 25506-24.jpg
+    title: Basurero con forma de lata de bebida
+    shop: queregalo
+
+  - link:www.santodiseno.com/products/cargador-usb-para-auto
+    img: 23263-cargador_USB_auto_calipso.jpg
+    title: Cargador USB para auto
+    shop: santodiseno
+
+  - link:www.queregalo.cl/products/lampara-space-invaders
+    img: 14892-DSCF0056.gif
+    title: L&aacute;mpara Space Invaders
+    shop: queregalo
+
+  - link:tienda.porlaputa.com/products/poleralasorra
+    img: 22159-derpina.png
+    title: La famosa polera del dinosaurio
+    shop: porlaputa
+
+  - link: www.santodiseno.com/products/android-coleccionable-blanco
+    img: 21524-ANDROID_BLANCO1.jpg
+    title: Android coleccionable blanco
+    shop: santodiseno
+
+  - link: www.queregalo.cl/products/pendrive-batman-vintage-edition
+    img: 19372-DC_BatmanVintage_MIMOBOTbaja.jpg
+    title: Pendrive Batman edici&oacute;n vintage
+    shop: queregalo
+
+  - link: www.papupet.cl/types/juguetes
+    img: 25112-129.jpg
+    title: Juguetes para mascotas
+    shop: papupet
+
+  - link: www.queregalo.cl/products/pescera
+    img: 14101-fish_hotel.jpg
+    title: Pecera
+    shop: queregalo
