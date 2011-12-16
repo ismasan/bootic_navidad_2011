@@ -24,7 +24,7 @@ shops:
     name: Open Baby
     url: openbaby.cl
   queregalo:
-    id: 47
+    id: 59
     name: Qué Regalo
     url: queregalo.cl
   pepino:
@@ -90,62 +90,65 @@ shops:
 
 products:
 
-  - link: http://www.pilpil.cl/collections/primavera-verano
+  - link: www.pilpil.cl/collections/primavera-verano
     img: 27483-caja4bajab.jpg
-    shop: pilpil
     title: Colecci&oacute;n Primavera Verano 2011-12
+    shop: pilpil
 
-  - link: http://www.bodoquitos.cl/products/porta-bebes-marsupial-o-fular
+  - link: www.bodoquitos.cl/products/porta-bebes-marsupial-o-fular
     img: 16482-Red_300x400.JPG
     title: Porta Bebes Marsupial o fular
     shop: bodoquitos
 
-  - link: http://www.zonaregalos.cl/tags/angry-birds
+  - link: www.zonaregalos.cl/tags/angry-birds
     img: 25607-Red_Bird.jpg
-    shop: zonaregalos
     title: Peluches Angry Birds
-
-  - link: http://www.amenkids.cl/products/set-cubreplumon-camita-mono
-    img: 20724-Camita-monobaja.jpg
-    shop: amenkids
-    title: Set Cubreplum&oacute;n Camita Mono
-
-  - link: http://www.kaikai.cl/products/dvd-tikitiklip-artesanal
-    img: 25013-DVD_artesanal_frente.png
-    shop: kaikai
-    title: DVD Tikitiklip
-
-  - link: http://www.openbaby.cl/products/mini-cuna-baby-clic
-    img: 23747-violeta.jpg
-    shop: openbaby
-    title: Mini cuna Baby Clic
-
-  - link: http://www.zonaregalos.cl/products/juego-balls-balls
-    img: 23051-Juego_“Balls_Balls”_1.jpg
     shop: zonaregalos
-    title: Juego Balls &amp; Balls
 
-  - link: http://www.queregalo.cl/products/selk-bag-ninos-2
+  - link: www.amenkids.cl/products/set-cubreplumon-camita-mono
+    img: 20724-Camita-monobaja.jpg
+    title: Set Cubreplum&oacute;n Camita Mono
+    shop: amenkids
+
+  - link: www.kaikai.cl/products/dvd-tikitiklip-artesanal
+    img: 25013-DVD_artesanal_frente.png
+    title: DVD Tikitiklip
+    shop: kaikai
+
+  - link: www.openbaby.cl/products/mini-cuna-baby-clic
+    img: 23747-violeta.jpg
+    title: Mini cuna Baby Clic
+    shop: openbaby
+
+  - link: www.zonaregalos.cl/products/juego-balls-balls
+    img: 23051-Juego_“Balls_Balls”_1.jpg
+    img_hash: BAh7CDoMc2hvcF9pZGlyOgZnSSINMjAweDIwMCMGOgZFVDoGZkkiKDIzMDUxLUp1ZWdvX+KAnEJhbGxzX0JhbGxz4oCdXzEuanBnBjsHVA
+    title: Juego Balls & Balls
+    shop: zonaregalos
+
+  - link: www.queregalo.cl/products/selk-bag-ninos-2
     img: 27297-QueRegSaco.jpg
+    img_hash: BAh7CDoMc2hvcF9pZGk0OgZnSSINMjAweDIwMCMGOgZFVDoGZkkiGTI3Mjk3LVF1ZVJlZ1NhY28uanBnBjsHVA
+    title: Selk Bag Niños
     shop: queregalo
-    title: Selk Bag Ni&ntilde;os
 
-  - link: http://pepino.bootic.net/collections/zapatos
+  - link: pepino.bootic.net/collections/zapatos
     img: 20078-pi_gitarre_large.jpg
-    shop: pepino
     title: Colecci&oacute;n zapatos
+    shop: pepino
 
-  - link: http://www.amenkids.cl/products/saco-de-dormir-perro-salchicha-rosado
+  - link: www.amenkids.cl/products/saco-de-dormir-perro-salchicha-rosado
     img: 19128-16900-sacodormisalchichabajavert_copy.jpg
     title: Saco de dormir perro salchicha
     shop: amenkids
 
-  - link: http://www.zonaregalos.cl/products/juego-frogy-game
+  - link: www.zonaregalos.cl/products/juego-frogy-game
     img: 23047-Juego_“Frogy_Game”_1.jpg
+    img_hash: BAh7CDoMc2hvcF9pZGlyOgZnSSINMjAweDIwMCMGOgZFVDoGZkkiJzIzMDQ3LUp1ZWdvX+KAnEZyb2d5X0dhbWXigJ1fMS5qcGcGOwdU
     title: Juego Frogy Game
     shop: zonaregalos
 
-  - link: http://www.openbaby.cl/products/sacos-artic
+  - link: www.openbaby.cl/products/sacos-artic
     img: 19784-artic_gris.jpg
     title: Sacos para coches Artic
     shop: openbaby
@@ -198,13 +201,13 @@ products:
     title: Carcasa IPhone 4 - Angry Birds
     shop: zonaregalos
 
-  - link: http://www.thestrip.cl/collections/sale
+  - link: www.thestrip.cl/collections/sale
     img: 20375-DORADO-PIEDRA-VERDE.jpg
     title: Accesorios - Anillos
     shop: thestrip
 
   - link: www.romano.cl/collections/avance-verano-2012
-    url: 25476-12014PA.JPG
+    img: 25476-12014PA.JPG
     height: 376
     width: 376
     title: Colecci&oacute;n Primavera Verano 2011-12
@@ -225,7 +228,7 @@ products:
     title: Jab&oacute;n Barra Albahaca &amp; Lemongrass
     shop: majen
 
-  - link: http://www.tiendadepto51.cl/types/cojines
+  - link: www.tiendadepto51.cl/types/cojines
     img: 25179-22609-home_square_drop_black.jpg
     title: Cojines
     shop: depto51
@@ -264,22 +267,22 @@ products:
     title: Screw - percheros para pared
     shop: queregalo
 
-  - link: www.queregalo.cl/products/can
-    img: 25506-24.jpg
-    title: Basurero con forma de lata de bebida
-    shop: queregalo
+#  - link: www.queregalo.cl/products/can
+#    img: 25506-24.jpg
+#    title: Basurero con forma de lata de bebida
+#    shop: queregalo
 
-  - link:www.santodiseno.com/products/cargador-usb-para-auto
+  - link: www.santodiseno.com/products/cargador-usb-para-auto
     img: 23263-cargador_USB_auto_calipso.jpg
     title: Cargador USB para auto
     shop: santodiseno
 
-  - link:www.queregalo.cl/products/lampara-space-invaders
+  - link: www.queregalo.cl/products/lampara-space-invaders
     img: 14892-DSCF0056.gif
     title: L&aacute;mpara Space Invaders
     shop: queregalo
 
-  - link:tienda.porlaputa.com/products/poleralasorra
+  - link: tienda.porlaputa.com/products/poleralasorra
     img: 22159-derpina.png
     title: La famosa polera del dinosaurio
     shop: porlaputa
@@ -291,6 +294,7 @@ products:
 
   - link: www.queregalo.cl/products/pendrive-batman-vintage-edition
     img: 19372-DC_BatmanVintage_MIMOBOTbaja.jpg
+    img_hash: BAh7CDoMc2hvcF9pZGlAOgZnSSINMjAweDIwMCMGOgZFVDoGZkkiKzE5MzcyLURDX0JhdG1hblZpbnRhZ2VfTUlNT0JPVGJhamEuanBnBjsHVA
     title: Pendrive Batman edici&oacute;n vintage
     shop: queregalo
 

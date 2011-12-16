@@ -8,9 +8,11 @@ class Site < Sinatra::Base
   set :public_folder, File.dirname(__FILE__) + '/public'
   set :root, File.dirname(__FILE__)
 
+  PRODUCTS = YAML.load_file('products.yml')
+
   get '/?' do
     cache_long
-    @products = YAML.load_file('products.yml')
+    @products = PRODUCTS
     erb :index
   end
 
@@ -26,12 +28,12 @@ class Site < Sinatra::Base
       %(style="-webkit-transform:rotate(#{(rand*10).to_i-5}deg);")
     end
 
-    def image(shop_id, file_name, size = '200x200#')
+    def image(shop_id, product, size = '200x200#')
 
-      image_path = Serializer.encode(
+      image_path = product['img_hash'] || Serializer.encode(
         :shop_id => shop_id,
         :g => size,
-        :f => file_name
+        :f => product['img']
       )
 
       url = "http://static.bootic.net/r/#{image_path}"

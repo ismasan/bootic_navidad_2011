@@ -1,12 +1,12 @@
 <div class="grid clearfix">
 
-  <% @products['products'].each_with_index do |product, i| %>
+  <% @products['products'].shuffle.each_with_index do |product, i| %>
 
     <% shop = @products['shops'][product['shop']] %>
 
     <h4 class="box" <%= rotate %>>
-      <a href="<%= product['link'] %>" target="_blank">
-        <img src="<%= image(shop['id'], product['img']) %>" alt="<%= product['title'] %>" />
+      <a href="http://<%= product['link'] %>" target="_blank">
+        <img src="<%= image(shop['id'], product) %>" alt="<%= product['title'] %>" />
         <span class="title"><%= product['title'] %></span>
       </a>
       <a href="http://<%= shop['url'] %>" target="_blank" class="shop"><%= shop['name'] %></a>
@@ -17,5 +17,5 @@
 </div>
 
 <div id="footer">
-	<p>(c) 2011 Bootic.net - Las imágenes son de exclusiva propiedad de los locatarios Bootic. <br />Si quieres aparecer en este listado <a href="http://www.bootic.net/forms/contact">avísanos</a>!</p>
+	<p>(c) 2011 Bootic.net - Las imágenes son de exclusiva propiedad de los locatarios Bootic. <br />Si estás en Bootic y quieres aparecer en este listado <a href="http://www.bootic.net/forms/contact">avísanos</a>!</p>
 </div><!-- /footer -->
